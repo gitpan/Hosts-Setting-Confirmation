@@ -1,0 +1,25 @@
+---
+abstract: 'The tool which confirms setting between hosts done a connection of in OPEN SSh'
+author:
+  - 'kazuhiko yamakura <yamakura@cpan.org>'
+build_requires:
+  File::Spec: 0
+  IPC::Shareable: 0
+  Parallel::ForkManager: 0
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Hosts-Setting-Confirmation
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Filter::Util::Call: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.00001
